@@ -26,17 +26,27 @@ html {
 }
 .hero {
   padding: 32px;
+  display: flex;
+
 }
 .hero__description {
   font-size: 16px;
   margin: 0;
   line-height: 22px;
 }
+.hero__description--margin-bottom {
+  margin-bottom: 22px;
+}
+.hero__header {
+  margin-bottom: 24px;
+}
 .hero__image {
   margin-right: 32px;
+  align-self: flex-start;
 }
-.hero__link{
-    color: #E20613;
+.hero__link {
+  color: #e20613;
+  text-decoration: none;
 }
 .hero__name {
   color: #000000;
@@ -46,13 +56,11 @@ html {
 }
 .hero__position {
   color: #545454;
-  margin-top: 0;
-  margin-bottom: 24px;
+  margin: 0;
   font-size: 18px;
   font-style: italic;
 }
-.color-text{
-    color: #ED6D05;
-    font-weight: normal;
-    
+.color-text {
+  color: #ed6d05;
+  font-weight: normal;
 }
